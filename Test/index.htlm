@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fisrt Page</title>
+    </head>
+    <body>
+        <?php
+            echo "hello from out side"
+            ?>
+    </body>
+</html>

@@ -1,0 +1,498 @@
+/* Start General Style */
+
+body,
+p,
+li {
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: #323232
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: raleway, sans-serif
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 48px
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 38px
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 34px
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 28px
+}
+
+h5 {
+    font-size: 14px;
+    line-height: 24px
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0!important
+}
+
+.margin-top-10 {
+    margin-top: 10px
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px!important
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px
+}
+
+.padding-top-0 {
+    padding-top: 0
+}
+
+.padding-top-25 {
+    padding-top: 25px!important
+}
+
+.padding-top-40 {
+    padding-top: 40px
+}
+
+.padding-top-bottom-40 {
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.padding-0 {
+    padding: 0
+}
+
+.color-white {
+    color: #fff
+}
+
+
+/* Start Separator line and title between section*/
+
+h2.title {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px 15px 25px;
+    position: relative;
+    left: 0;
+    line-height: normal
+}
+
+h2.title span {
+    background: #fff;
+    z-index: 1;
+    padding: 10px 15px
+}
+
+h2.title:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+    height: 1px;
+    width: 100%;
+    left: 0;
+    z-index: -1;
+    border-bottom: 1px solid #cecece
+}
+
+
+/* End Serpartor Line and title between section */
+
+/* End General Style */
+
+
+
+/* Start Header Section */
+#header {
+    background: #f6f6f6;
+    background: -webkit-linear-gradient(#f6f6f6, #fff);
+    background: linear-gradient(#f6f6f6, #fff);
+    clear: both;
+    border-top: 5px solid #ededed;
+    min-height: 85px;
+    padding: 3px 0
+}
+#header .logo a {
+    cursor: pointer;
+}
+
+#header .navbar-collapse {
+    float: right;
+}
+
+#header nav ul.nav-main {
+    margin-top: 20px
+}
+
+@media (max-width: 991px) {
+    #header.fixed .logo img,
+    body.sticky-menu-active #header .logo img {
+        margin-top: -4px;
+    }
+    .btn-responsive-nav {
+        top: 22px;
+    }
+    #header .logo img {
+        width: 120px !important;
+        height: 68px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn-responsive-nav {
+        top: 22px;
+    }
+}
+/* End Header Section */
+
+
+/* Start Home-Intro */
+
+.home-intro {
+    background-color: #171717;
+    overflow: hidden;
+    padding: 20px 0 10px;
+    position: relative;
+    text-align: left
+}
+
+.home-intro .intro-text {
+    width: 98%;
+    margin: 0 auto
+}
+.home-intro .intro-text h1 {
+    color: #fff;
+    display: inline-block;
+    font-weight: 300;
+    padding-top: 5px;
+    line-height: 30px;
+    max-width: none;
+    text-align: center;
+    font-size: 17px;
+    width: 100%;
+    margin: 0 0 20px;
+    letter-spacing: 0
+}
+
+.home-intro .intro-text h1 em {
+    font-family: raleway, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    color: #ff371f
+}
+
+/* End home-Intro */
+
+/* Start Vision Section */
+#vision-section {
+    padding-top: 50px;
+}
+#vision-section .vision p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px
+}
+
+#vision-section .vision .cards {
+    margin-bottom: 20px;
+}
+
+#vision-section .vision .master {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    margin: 5px auto;
+    background: #121212;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    height: 300px;
+    float: right;
+    margin-bottom: 15px;
+}
+
+#vision-section .vision .master:hover {
+    box-shadow: -1px 1px 16px 2px rgb(128, 125, 125), 0px 6px 7px 0px rgb(128, 125, 125);
+    cursor: context-menu;
+}
+
+#vision-section .vision .master:hover h4 {
+    color: #1CC6D5
+}
+
+#vision-section .vision .master i {
+    font-size: 40px;
+    padding: 10px 0px 10px 5px;
+}
+
+#vision-section .vision .master h4 {
+    color:#5a9bd5;
+    padding: 10px 0px 0px 5px;
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#vision-section .vision .master p {
+    padding: 10px 0px 10px 5px;
+    color: #fff;
+    font-size: 16px;
+}
+
+#vision-section .vision .diff {
+    background: #F5F5F5;
+}
+
+#vision-section .vision .diff i {
+    color: #121212;
+}
+
+#vision-section .vision .diff p {
+    color: #000;
+}
+
+/* End Vision Section */
+
+/* Start Partteners (with clients class) */
+#clients {
+    padding-top: 50px;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+    cursor: pointer;
+    background: #f6f6f6;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    color: #989898;
+    opacity: 1;
+    top: auto;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+    -moz-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease
+}
+
+.owl-theme .owl-controls .owl-buttons div:hover {
+    background: #12abed;
+    color: #fff
+}
+/* End Partteners (with clients class) */
+
+/* Start Service Section */
+.service-section {
+    padding-top: 50px
+}
+
+.service-section .accordionContainer {
+    margin-top: 20px;
+}
+
+.service-section .accordionContainer .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: 0.5px solid #5a9bd5;
+    outline: none;
+    transition: 0.4s;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: raleway, sans-serif;
+    line-height: 32px;
+    border-radius: 10px;
+}
+
+.service-section .accordionContainer .accordion:after {
+    content: "\f067";
+    font-size: 18px;
+    color: #ffffff;
+    float: right;
+    margin-left: 5px;
+    border-radius: 50%;
+    width: 32px;
+    height: 29px;
+    font-family: FontAwesome;
+    background: #afafaf;
+    border: 5px solid #ccc;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, .07);
+    display: inline-block;
+    text-align: center;
+    line-height: 21px;
+}
+
+.service-section .accordionContainer .active,.service-section .accordionContainer .accordion:hover {
+    color: #0180c0
+}
+
+.service-section .accordionContainer .active:after {
+    content: "\f068";
+    background-color: #5a9bd5
+}
+
+.service-section .accordionContainer .panel {
+    background-color: white;
+    max-height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    transition: max-height 0.25s ease-in-out;
+    border: 1px solid #5a9bd5;
+}
+
+.service-section .accordionContainer .panel p,
+.service-section .accordionContainer .panel ul {
+    padding: 20px;
+    list-style-position: inside;
+    font-size: 14px;
+}
+
+.service-section .accordionContainer .panel .imageContainer {
+    width: 100%;
+    text-align: center;
+}
+
+.service-section .accordionContainer .panel img {
+    text-align: center;
+    width: 450px;
+}
+/* End Service Section */
+
+
+/* Start Client (with patterns id) Section */
+
+#parttners {
+    padding-top: 50px;
+}
+
+#parttners .parttners-pics .col-sm-6,
+#parttners .parttners-pics .col-md-3 {
+    margin-bottom: 80px;
+}
+
+.parttners-pics-second img {
+    height: 80px;
+}
+
+.parttners-pics-third img {
+    height: 130px;
+}
+
+#parttners .parttners-pics img {
+    width: 180px;
+}
+
+/* End Client (with patterns id) Section */
+
+/* Start Footer Style */
+#footer {
+    background: #0e0e0e;
+    border-top: 4px solid #0e0e0e;
+    font-size: .9em;
+    margin-top: 38px;
+    padding: 67px 0 0;
+    position: relative;
+    clear: both;
+}
+
+#footer .wow div {
+    margin-bottom: 10px;
+    margin-left: 49px;
+}
+
+#footer .wow i {
+    display: inline-block;
+    padding: 10px;
+    font-size: 24px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#footer .wow p {
+    line-height: 20px;
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500;
+}
+
+
+
+#footer .map img {
+    width: 100%;
+    border-radius: 38px;
+    display: inline-block
+}
+
+#footer .light.footer-line {
+    margin: 0
+}
+
+#footer .footer-copyright {
+    margin-top: 0;
+    padding: 10px 0px;
+}
+
+#footer .footer-offices p {
+    color: #fff;
+    font-size: 16px;
+}
+
+/* End Footer Style */
+
+/* Amimation */
+
+@charset "UTF-8";
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.animated.hinge {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s
+}
+
+/* Animated */
+
+
+/* Start Loader Style */
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('http://www.downgraf.com/wp-content/uploads/2014/09/01-progress.gif?e44397') 50% 50% no-repeat rgb(249,249,249);
+}
+/* End loadr Style */
