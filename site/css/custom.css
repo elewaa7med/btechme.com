@@ -83,7 +83,12 @@ h5 {
 .color-white {
     color: #fff
 }
-
+.bg-dark.bg2 {
+    background: url(../../image/backgroundSection.png);
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+}
 
 /* Start Separator line and title between section*/
 
