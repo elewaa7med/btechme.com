@@ -418,7 +418,6 @@ h2.title:before {
     background: #0e0e0e;
     border-top: 4px solid #0e0e0e;
     font-size: .9em;
-    margin-top: 38px;
     padding: 67px 0 0;
     position: relative;
     clear: both;
@@ -468,6 +467,73 @@ h2.title:before {
     color: #fff;
     font-size: 16px;
 }
+
+/* Start Seyanah project Page */
+.page-top{
+    background-color: #171717;
+    border-bottom: 5px solid #ccc;
+    border-top: 5px solid #384045;
+    margin-bottom: 35px;
+    min-height: 50px;
+    padding: 20px 0;
+    position: relative;
+    text-align: left;
+}
+.page-top ul.breadcrumb {
+    background: 0 0;
+    margin: -3px 0 0;
+    padding: 0;
+}
+section.page-top h1 {
+    border-bottom-color: #08c;
+}
+.page-top h1 {
+    border-bottom: 5px solid #ccc;
+    color: #fff;
+    display: inline-block;
+    font-weight: 200;
+    margin: 0 0 -25px;
+    min-height: 37px;
+    font-size: 2.6em;
+    line-height: 46px;
+    padding: 0 0 17px;
+    position: relative;
+}
+.main-seyanah {
+    padding-top: 40px;
+}
+.paragraph-syanah-style{
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 19px;
+}
+.main-seyanah .seyanah-description p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+.main-seyanah .seyanah-description button{
+width: 156px;
+    padding: 9px;
+    word-spacing: 1px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    background: #2f479d;
+    border: none;
+    margin-top: 35px;
+}
+#users,#categories,#orders,#location,#notification{
+    margin-top: 30px;
+}
+
+
+.padding-top-bottom-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* End Seyanah project Page */
 
 /* End Footer Style */
 
